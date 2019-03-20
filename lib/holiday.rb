@@ -55,7 +55,6 @@ def all_supplies_in_holidays(holiday_hash)
       f_holiday_name = 
       f_supplies = supplies.to_s.join(", ")
       puts "  #{f_holiday_name}: #{f_supplies}" 
-      binding.pry
     end
   end
 end
